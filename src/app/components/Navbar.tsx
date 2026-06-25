@@ -90,7 +90,7 @@ export function Navbar() {
                   letterSpacing: "0.08em",
                 }}
               >
-                MKDESIGNERS
+                marcosteles.me
               </div>
               <div
                 style={{

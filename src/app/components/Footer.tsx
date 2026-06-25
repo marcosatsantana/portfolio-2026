@@ -47,7 +47,7 @@ export function Footer() {
                     letterSpacing: "0.08em",
                   }}
                 >
-                  MKDESIGNERS
+                  marcosteles.me
                 </div>
                 <div
                   style={{
@@ -140,7 +140,7 @@ export function Footer() {
               color: "#3a3a48",
             }}
           >
-            © 2025 MKDESIGNERS. TODOS OS DIREITOS RESERVADOS.
+            © 2025 marcosteles.me. TODOS OS DIREITOS RESERVADOS.
           </div>
           <div
             style={{
