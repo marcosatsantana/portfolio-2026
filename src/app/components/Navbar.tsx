@@ -74,7 +74,7 @@ export function Navbar() {
                   letterSpacing: "0.02em",
                 }}
               >
-                MK
+                MT
               </span>
               <div
                 className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity"
