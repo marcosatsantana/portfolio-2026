@@ -35,7 +35,7 @@ export function Footer() {
                     letterSpacing: "0.02em",
                   }}
                 >
-                  MK
+                  MT
                 </span>
               </div>
               <div>
