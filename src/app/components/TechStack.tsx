@@ -35,7 +35,7 @@ export function TechStack() {
               style={{
                 fontFamily: "'DM Mono', monospace",
                 fontSize: "0.72rem",
-                color: "#ff0055",
+                color: "#bfdbfe",
                 letterSpacing: "0.2em",
                 marginBottom: "0.5rem",
               }}
@@ -56,7 +56,7 @@ export function TechStack() {
               <span
                 style={{
                   color: "transparent",
-                  WebkitTextStroke: "1.5px #ff0055",
+                  WebkitTextStroke: "1.5px #bfdbfe",
                 }}
               >
                 QUE USO.
@@ -139,7 +139,7 @@ export function TechStack() {
               style={{
                 borderRight: "1px solid rgba(255,255,255,0.07)",
                 minWidth: "max-content",
-                background: i % 3 === 0 ? "rgba(0,255,136,0.025)" : "transparent",
+                background: i % 3 === 0 ? "rgba(147,197,253,0.025)" : "transparent",
               }}
             >
               <span

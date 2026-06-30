@@ -90,8 +90,8 @@ export function Hero() {
         className="absolute inset-0 pointer-events-none"
         style={{
           backgroundImage: `
-            linear-gradient(rgba(0,255,136,0.025) 1px, transparent 1px),
-            linear-gradient(90deg, rgba(0,255,136,0.025) 1px, transparent 1px)
+            linear-gradient(rgba(147,197,253,0.025) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(147,197,253,0.025) 1px, transparent 1px)
           `,
           backgroundSize: "80px 80px",
         }}
@@ -103,7 +103,7 @@ export function Hero() {
         style={{
           fontFamily: "'Anton', sans-serif",
           fontSize: "clamp(120px, 22vw, 280px)",
-          color: "rgba(0,255,136,0.03)",
+          color: "rgba(147,197,253,0.03)",
           lineHeight: 0.85,
           letterSpacing: "-0.02em",
         }}
@@ -114,7 +114,7 @@ export function Hero() {
       {/* Accent line left */}
       <div
         className="absolute left-0 top-1/4 w-px h-1/2 hidden md:block"
-        style={{ background: "linear-gradient(to bottom, transparent, rgba(0,255,136,0.4), transparent)" }}
+        style={{ background: "linear-gradient(to bottom, transparent, rgba(147,197,253,0.4), transparent)" }}
       />
 
       <div className="relative z-20 max-w-7xl mx-auto px-6 pt-28 pb-16 w-full">
@@ -125,11 +125,11 @@ export function Hero() {
               <div
                 className="mb-8 p-4"
                 style={{
-                  border: "1px solid rgba(0,255,136,0.2)",
-                  background: "rgba(0,255,136,0.03)",
+                  border: "1px solid rgba(147,197,253,0.2)",
+                  background: "rgba(147,197,253,0.03)",
                   fontFamily: "'DM Mono', monospace",
                   fontSize: "0.75rem",
-                  color: "#00ff88",
+                  color: "#93c5fd",
                   maxWidth: "440px",
                 }}
               >
@@ -150,12 +150,12 @@ export function Hero() {
                     fontFamily: "'DM Mono', monospace",
                     fontSize: "0.72rem",
                     letterSpacing: "0.2em",
-                    color: "#ff0055",
+                    color: "#bfdbfe",
                   }}
                 >
                   <span
                     className="w-6 h-px"
-                    style={{ background: "#ff0055" }}
+                    style={{ background: "#bfdbfe" }}
                   />
                   MARCOS SANTANA / GOIÂNIA — BR
                 </div>
@@ -175,14 +175,14 @@ export function Hero() {
                     <>
                       <span
                         className="absolute inset-0 select-none"
-                        style={{ color: "#ff0055", clipPath: "polygon(0 20%, 100% 20%, 100% 45%, 0 45%)", transform: "translateX(-3px)", opacity: 0.8 }}
+                        style={{ color: "#bfdbfe", clipPath: "polygon(0 20%, 100% 20%, 100% 45%, 0 45%)", transform: "translateX(-3px)", opacity: 0.8 }}
                         aria-hidden
                       >
                         MARCOS
                       </span>
                       <span
                         className="absolute inset-0 select-none"
-                        style={{ color: "#00ff88", clipPath: "polygon(0 55%, 100% 55%, 100% 75%, 0 75%)", transform: "translateX(3px)", opacity: 0.8 }}
+                        style={{ color: "#93c5fd", clipPath: "polygon(0 55%, 100% 55%, 100% 75%, 0 75%)", transform: "translateX(3px)", opacity: 0.8 }}
                         aria-hidden
                       >
                         MARCOS
@@ -200,7 +200,7 @@ export function Hero() {
                     lineHeight: 0.92,
                     letterSpacing: "-0.01em",
                     color: "transparent",
-                    WebkitTextStroke: "2px #00ff88",
+                    WebkitTextStroke: "2px #93c5fd",
                   }}
                 >
                   SANTANA
@@ -221,7 +221,7 @@ export function Hero() {
                     {displayed}
                     <span
                       className="animate-pulse"
-                      style={{ color: "#00ff88", marginLeft: "2px" }}
+                      style={{ color: "#93c5fd", marginLeft: "2px" }}
                     >
                       _
                     </span>
@@ -246,7 +246,7 @@ export function Hero() {
                   <button
                     onClick={() => scrollTo("portfolio")}
                     className="group relative overflow-hidden px-7 py-3.5"
-                    style={{ background: "#00ff88" }}
+                    style={{ background: "#93c5fd" }}
                   >
                     <span
                       style={{
@@ -298,7 +298,7 @@ export function Hero() {
                 <div
                   key={label}
                   className="text-right"
-                  style={{ borderRight: "2px solid rgba(0,255,136,0.3)", paddingRight: "20px" }}
+                  style={{ borderRight: "2px solid rgba(147,197,253,0.3)", paddingRight: "20px" }}
                 >
                   <div
                     style={{
@@ -314,7 +314,7 @@ export function Hero() {
                     style={{
                       fontFamily: "'DM Mono', monospace",
                       fontSize: "0.62rem",
-                      color: "#00ff88",
+                      color: "#93c5fd",
                       letterSpacing: "0.15em",
                     }}
                   >

@@ -8,7 +8,7 @@ const services = [
     description:
       "Sistemas completos do zero — frontend, backend, banco de dados, integrações. Arquitetura limpa, código escalável, entrega funcional.",
     tags: ["React", "NodeJS", "PostgreSQL", "REST API"],
-    accent: "#00ff88",
+    accent: "#93c5fd",
   },
   {
     num: "02",
@@ -17,7 +17,7 @@ const services = [
     description:
       "Interfaces que convertem. Prototipação, sistema de design, componentes reutilizáveis. UI com intenção, UX com pesquisa.",
     tags: ["Figma", "UI/UX", "Design System", "Protótipo"],
-    accent: "#ff0055",
+    accent: "#bfdbfe",
   },
   {
     num: "03",
@@ -52,7 +52,7 @@ export function Services() {
               style={{
                 fontFamily: "'DM Mono', monospace",
                 fontSize: "0.72rem",
-                color: "#ff0055",
+                color: "#bfdbfe",
                 letterSpacing: "0.2em",
                 marginBottom: "1rem",
               }}
@@ -69,7 +69,7 @@ export function Services() {
               }}
             >
               O QUE EU<br />
-              <span style={{ color: "transparent", WebkitTextStroke: "1.5px #ff0055" }}>
+              <span style={{ color: "transparent", WebkitTextStroke: "1.5px #bfdbfe" }}>
                 ENTREGO.
               </span>
             </h2>

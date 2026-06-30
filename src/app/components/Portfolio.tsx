@@ -174,7 +174,7 @@ export function Portfolio() {
               style={{
                 fontFamily: "'DM Mono', monospace",
                 fontSize: "0.72rem",
-                color: "#ff0055",
+                color: "#bfdbfe",
                 letterSpacing: "0.2em",
                 marginBottom: "1rem",
               }}
@@ -191,7 +191,7 @@ export function Portfolio() {
               }}
             >
               PROJETOS<br />
-              <span style={{ color: "transparent", WebkitTextStroke: "1.5px #00ff88" }}>
+              <span style={{ color: "transparent", WebkitTextStroke: "1.5px #93c5fd" }}>
                 ENTREGUES.
               </span>
             </h2>
@@ -209,8 +209,8 @@ export function Portfolio() {
                   fontSize: "0.65rem",
                   letterSpacing: "0.1em",
                   color: filter === cat ? "#040407" : "#6b6b80",
-                  background: filter === cat ? "#00ff88" : "transparent",
-                  border: filter === cat ? "1px solid #00ff88" : "1px solid rgba(255,255,255,0.1)",
+                  background: filter === cat ? "#93c5fd" : "transparent",
+                  border: filter === cat ? "1px solid #93c5fd" : "1px solid rgba(255,255,255,0.1)",
                   cursor: "none"
                 }}
               >
@@ -254,7 +254,7 @@ export function Portfolio() {
                     fontSize: "0.62rem",
                     letterSpacing: "0.12em",
                     color: "#040407",
-                    background: "#00ff88",
+                    background: "#93c5fd",
                   }}
                 >
                   {project.category}
@@ -292,7 +292,7 @@ export function Portfolio() {
                     {project.title.toUpperCase()}
                   </h3>
                   <div
-                    className="flex-shrink-0 w-8 h-8 flex items-center justify-center transition-all duration-200 group-hover:border-[#00ff88] group-hover:text-[#00ff88] group-hover:bg-[rgba(0,255,136,0.1)] rounded-full"
+                    className="flex-shrink-0 w-8 h-8 flex items-center justify-center transition-all duration-200 group-hover:border-[#93c5fd] group-hover:text-[#93c5fd] group-hover:bg-[rgba(147,197,253,0.1)] rounded-full"
                     style={{
                       border: "1px solid rgba(255,255,255,0.15)",
                       color: "#6b6b80",
@@ -327,10 +327,10 @@ export function Portfolio() {
                         fontFamily: "'DM Mono', monospace",
                         fontSize: "0.62rem",
                         letterSpacing: "0.06em",
-                        color: "#00ff88",
-                        border: "1px solid rgba(0,255,136,0.2)",
+                        color: "#93c5fd",
+                        border: "1px solid rgba(147,197,253,0.2)",
                         padding: "2px 6px",
-                        background: "rgba(0,255,136,0.05)",
+                        background: "rgba(147,197,253,0.05)",
                       }}
                     >
                       {tag}
@@ -371,7 +371,7 @@ export function Portfolio() {
             {/* Close Button */}
             <button
               onClick={() => setSelectedProject(null)}
-              className="absolute top-4 right-4 z-50 p-2 rounded-full bg-black/50 text-white hover:text-[#00ff88] hover:bg-black transition-colors"
+              className="absolute top-4 right-4 z-50 p-2 rounded-full bg-black/50 text-white hover:text-[#93c5fd] hover:bg-black transition-colors"
               style={{ cursor: "none" }}
             >
               <X size={20} />
@@ -399,7 +399,7 @@ export function Portfolio() {
                     fontSize: "0.7rem",
                     letterSpacing: "0.1em",
                     color: "#040407",
-                    background: "#00ff88",
+                    background: "#93c5fd",
                   }}
                 >
                   {selectedProject.category}
@@ -422,7 +422,7 @@ export function Portfolio() {
             <div className="w-full md:w-3/5 p-6 md:p-10 flex flex-col gap-8">
 
               <div>
-                <h4 className="flex items-center gap-2 mb-3" style={{ color: "#ff0055", fontFamily: "'DM Mono', monospace", fontSize: "0.85rem", letterSpacing: "0.1em" }}>
+                <h4 className="flex items-center gap-2 mb-3" style={{ color: "#bfdbfe", fontFamily: "'DM Mono', monospace", fontSize: "0.85rem", letterSpacing: "0.1em" }}>
                   <ChevronRight size={16} /> O PROBLEMA
                 </h4>
                 <p style={{ fontFamily: "'Barlow', sans-serif", fontWeight: 300, color: "#a0a0b8", lineHeight: 1.7, fontSize: "1.05rem" }}>
@@ -431,7 +431,7 @@ export function Portfolio() {
               </div>
 
               <div>
-                <h4 className="flex items-center gap-2 mb-3" style={{ color: "#00ff88", fontFamily: "'DM Mono', monospace", fontSize: "0.85rem", letterSpacing: "0.1em" }}>
+                <h4 className="flex items-center gap-2 mb-3" style={{ color: "#93c5fd", fontFamily: "'DM Mono', monospace", fontSize: "0.85rem", letterSpacing: "0.1em" }}>
                   <ChevronRight size={16} /> SOLUÇÃO & FUNCIONALIDADES
                 </h4>
                 <p style={{ fontFamily: "'Barlow', sans-serif", fontWeight: 300, color: "#e0e0e8", lineHeight: 1.7, fontSize: "1.05rem" }}>

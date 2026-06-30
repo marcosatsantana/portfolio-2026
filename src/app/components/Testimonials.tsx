@@ -8,7 +8,7 @@ const testimonials = [
     date: "JAN 2021",
     text: "Estou extremamente satisfeita com o trabalho excepcional. Superou todas as expectativas, entregando um produto de alta qualidade. A abordagem inovadora e a atenção aos detalhes fizeram toda a diferença. Recomendo sem hesitar.",
     initial: "A",
-    accent: "#00ff88",
+    accent: "#93c5fd",
   },
   {
     name: "CARLOS MENDES",
@@ -16,7 +16,7 @@ const testimonials = [
     date: "NOV 2021",
     text: "Trabalhar com essa equipe foi uma experiência incrível. Não apenas entenderam nossas necessidades, mas trouxeram insights valiosos que aprimoraram significativamente o projeto. Profissionais comprometidos e talentosos.",
     initial: "C",
-    accent: "#ff0055",
+    accent: "#bfdbfe",
   },
   {
     name: "ISABELA SANTOS",
@@ -52,7 +52,7 @@ export function Testimonials() {
               style={{
                 fontFamily: "'DM Mono', monospace",
                 fontSize: "0.72rem",
-                color: "#ff0055",
+                color: "#bfdbfe",
                 letterSpacing: "0.2em",
                 marginBottom: "1rem",
               }}
@@ -69,7 +69,7 @@ export function Testimonials() {
               }}
             >
               O QUE<br />
-              <span style={{ color: "transparent", WebkitTextStroke: "1.5px #00ff88" }}>
+              <span style={{ color: "transparent", WebkitTextStroke: "1.5px #93c5fd" }}>
                 DIZEM.
               </span>
             </h2>
@@ -84,7 +84,7 @@ export function Testimonials() {
                 style={{
                   width: i === active ? "32px" : "8px",
                   height: "4px",
-                  background: i === active ? "#00ff88" : "rgba(255,255,255,0.2)",
+                  background: i === active ? "#93c5fd" : "rgba(255,255,255,0.2)",
                 }}
               />
             ))}
@@ -116,8 +116,8 @@ export function Testimonials() {
                   color: "#6b6b80",
                 }}
                 onMouseEnter={(e) => {
-                  (e.currentTarget as HTMLButtonElement).style.borderColor = "#00ff88";
-                  (e.currentTarget as HTMLButtonElement).style.color = "#00ff88";
+                  (e.currentTarget as HTMLButtonElement).style.borderColor = "#93c5fd";
+                  (e.currentTarget as HTMLButtonElement).style.color = "#93c5fd";
                 }}
                 onMouseLeave={(e) => {
                   (e.currentTarget as HTMLButtonElement).style.borderColor = "rgba(255,255,255,0.12)";
@@ -134,8 +134,8 @@ export function Testimonials() {
                   color: "#6b6b80",
                 }}
                 onMouseEnter={(e) => {
-                  (e.currentTarget as HTMLButtonElement).style.borderColor = "#00ff88";
-                  (e.currentTarget as HTMLButtonElement).style.color = "#00ff88";
+                  (e.currentTarget as HTMLButtonElement).style.borderColor = "#93c5fd";
+                  (e.currentTarget as HTMLButtonElement).style.color = "#93c5fd";
                 }}
                 onMouseLeave={(e) => {
                   (e.currentTarget as HTMLButtonElement).style.borderColor = "rgba(255,255,255,0.12)";

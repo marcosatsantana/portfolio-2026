@@ -24,11 +24,11 @@ export function About() {
               {/* Offset frame */}
               <div
                 className="absolute -top-3 -left-3 w-full h-full"
-                style={{ border: "1px solid rgba(0,255,136,0.2)" }}
+                style={{ border: "1px solid rgba(147,197,253,0.2)" }}
               />
               <div
                 className="absolute -bottom-3 -right-3 w-full h-full"
-                style={{ border: "1px solid rgba(255,0,85,0.2)" }}
+                style={{ border: "1px solid rgba(191,219,254,0.2)" }}
               />
 
               <div
@@ -53,7 +53,7 @@ export function About() {
                 <div
                   className="absolute bottom-4 left-4 px-3 py-2"
                   style={{
-                    background: "#00ff88",
+                    background: "#93c5fd",
                     fontFamily: "'DM Mono', monospace",
                     fontSize: "0.65rem",
                     letterSpacing: "0.12em",
@@ -73,7 +73,7 @@ export function About() {
               style={{
                 fontFamily: "'DM Mono', monospace",
                 fontSize: "0.72rem",
-                color: "#ff0055",
+                color: "#bfdbfe",
                 letterSpacing: "0.2em",
                 marginBottom: "1rem",
               }}
@@ -95,7 +95,7 @@ export function About() {
               <span
                 style={{
                   color: "transparent",
-                  WebkitTextStroke: "1.5px #00ff88",
+                  WebkitTextStroke: "1.5px #93c5fd",
                 }}
               >
                 E PROGRAMADOR.
@@ -151,7 +151,7 @@ export function About() {
                     color: "#f0f0f8",
                   }}
                 >
-                  <span style={{ color: "#00ff88", fontSize: "0.8rem" }}>▸</span>
+                  <span style={{ color: "#93c5fd", fontSize: "0.8rem" }}>▸</span>
                   {feat}
                 </div>
               ))}
@@ -159,20 +159,20 @@ export function About() {
 
             <button
               className="group relative overflow-hidden flex items-center gap-3 px-7 py-3.5"
-              style={{ border: "1px solid #00ff88" }}
+              style={{ border: "1px solid #93c5fd" }}
             >
               <div
                 className="absolute inset-0 -translate-x-full group-hover:translate-x-0 transition-transform duration-300"
-                style={{ background: "#00ff88" }}
+                style={{ background: "#93c5fd" }}
               />
-              <Download size={16} className="relative z-10 transition-colors duration-300 group-hover:text-[#040407]" style={{ color: "#00ff88" }} />
+              <Download size={16} className="relative z-10 transition-colors duration-300 group-hover:text-[#040407]" style={{ color: "#93c5fd" }} />
               <span
                 className="relative z-10 transition-colors duration-300 group-hover:text-[#040407]"
                 style={{
                   fontFamily: "'DM Mono', monospace",
                   fontSize: "0.72rem",
                   letterSpacing: "0.12em",
-                  color: "#00ff88",
+                  color: "#93c5fd",
                 }}
               >
                 DOWNLOAD_CV

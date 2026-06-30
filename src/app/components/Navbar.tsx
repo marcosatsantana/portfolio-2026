@@ -46,7 +46,7 @@ export function Navbar() {
       {/* Scroll progress */}
       <div
         className="fixed top-0 left-0 z-[60] h-[2px] transition-all duration-100"
-        style={{ width: `${progress}%`, background: "linear-gradient(90deg, #00ff88, #ff0055)" }}
+        style={{ width: `${progress}%`, background: "linear-gradient(90deg, #93c5fd, #bfdbfe)" }}
       />
 
       <header
@@ -54,7 +54,7 @@ export function Navbar() {
         style={{
           background: scrolled ? "rgba(4,4,7,0.92)" : "transparent",
           backdropFilter: scrolled ? "blur(20px)" : "none",
-          borderBottom: scrolled ? "1px solid rgba(0,255,136,0.12)" : "none",
+          borderBottom: scrolled ? "1px solid rgba(147,197,253,0.12)" : "none",
         }}
       >
         <nav className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
@@ -64,13 +64,13 @@ export function Navbar() {
           >
             <div
               className="relative w-9 h-9 flex items-center justify-center overflow-hidden"
-              style={{ border: "1px solid #00ff88" }}
+              style={{ border: "1px solid #93c5fd" }}
             >
               <span
                 style={{
                   fontFamily: "'Anton', sans-serif",
                   fontSize: "0.85rem",
-                  color: "#00ff88",
+                  color: "#93c5fd",
                   letterSpacing: "0.02em",
                 }}
               >
@@ -78,7 +78,7 @@ export function Navbar() {
               </span>
               <div
                 className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity"
-                style={{ background: "rgba(0,255,136,0.12)" }}
+                style={{ background: "rgba(147,197,253,0.12)" }}
               />
             </div>
             <div>
@@ -96,7 +96,7 @@ export function Navbar() {
                 style={{
                   fontFamily: "'DM Mono', monospace",
                   fontSize: "0.6rem",
-                  color: "#00ff88",
+                  color: "#93c5fd",
                   letterSpacing: "0.1em",
                 }}
               >
@@ -117,13 +117,13 @@ export function Navbar() {
                       fontFamily: "'DM Mono', monospace",
                       fontSize: "0.72rem",
                       letterSpacing: "0.12em",
-                      color: isActive ? "#00ff88" : "#6b6b80",
+                      color: isActive ? "#93c5fd" : "#6b6b80",
                     }}
                   >
                     {isActive && (
                       <span
                         className="absolute bottom-0 left-0 right-0 h-[1px]"
-                        style={{ background: "#00ff88" }}
+                        style={{ background: "#93c5fd" }}
                       />
                     )}
                     <span className="relative z-10 transition-colors duration-200 group-hover:text-[#f0f0f8]">
@@ -137,12 +137,12 @@ export function Navbar() {
 
           <button
             className="hidden md:flex items-center gap-2 px-5 py-2 transition-all duration-200 group overflow-hidden relative"
-            style={{ border: "1px solid #00ff88" }}
+            style={{ border: "1px solid #93c5fd" }}
             onClick={() => scrollTo("contact")}
           >
             <div
               className="absolute inset-0 -translate-x-full group-hover:translate-x-0 transition-transform duration-300"
-              style={{ background: "#00ff88" }}
+              style={{ background: "#93c5fd" }}
             />
             <span
               className="relative z-10 transition-colors duration-300 group-hover:text-[#040407]"
@@ -150,7 +150,7 @@ export function Navbar() {
                 fontFamily: "'DM Mono', monospace",
                 fontSize: "0.72rem",
                 letterSpacing: "0.1em",
-                color: "#00ff88",
+                color: "#93c5fd",
               }}
             >
               FALE_COMIGO
@@ -165,7 +165,7 @@ export function Navbar() {
         {menuOpen && (
           <div
             className="md:hidden px-6 pb-6 flex flex-col gap-1"
-            style={{ background: "rgba(4,4,7,0.98)", borderTop: "1px solid rgba(0,255,136,0.1)" }}
+            style={{ background: "rgba(4,4,7,0.98)", borderTop: "1px solid rgba(147,197,253,0.1)" }}
           >
             {navLinks.map(({ label, href }) => (
               <button
@@ -176,7 +176,7 @@ export function Navbar() {
                   fontFamily: "'DM Mono', monospace",
                   fontSize: "0.8rem",
                   letterSpacing: "0.1em",
-                  color: active === href ? "#00ff88" : "#6b6b80",
+                  color: active === href ? "#93c5fd" : "#6b6b80",
                   borderBottom: "1px solid rgba(255,255,255,0.04)",
                 }}
               >

@@ -38,7 +38,7 @@ export function Qualifications() {
               style={{
                 fontFamily: "'DM Mono', monospace",
                 fontSize: "0.72rem",
-                color: "#ff0055",
+                color: "#bfdbfe",
                 letterSpacing: "0.2em",
                 marginBottom: "1rem",
               }}
@@ -56,7 +56,7 @@ export function Qualifications() {
               }}
             >
               MINHA<br />
-              <span style={{ color: "transparent", WebkitTextStroke: "1.5px #00ff88" }}>
+              <span style={{ color: "transparent", WebkitTextStroke: "1.5px #93c5fd" }}>
                 JORNADA.
               </span>
             </h2>
@@ -71,12 +71,12 @@ export function Qualifications() {
                   onClick={() => setTab(key as "exp" | "edu")}
                   className="text-left px-5 py-3.5 transition-all duration-200"
                   style={{
-                    border: `1px solid ${tab === key ? "#00ff88" : "rgba(255,255,255,0.07)"}`,
-                    background: tab === key ? "rgba(0,255,136,0.06)" : "transparent",
+                    border: `1px solid ${tab === key ? "#93c5fd" : "rgba(255,255,255,0.07)"}`,
+                    background: tab === key ? "rgba(147,197,253,0.06)" : "transparent",
                     fontFamily: "'DM Mono', monospace",
                     fontSize: "0.72rem",
                     letterSpacing: "0.15em",
-                    color: tab === key ? "#00ff88" : "#6b6b80",
+                    color: tab === key ? "#93c5fd" : "#6b6b80",
                   }}
                 >
                   {label}
@@ -89,7 +89,7 @@ export function Qualifications() {
           <div className="relative">
             <div
               className="absolute left-4 top-0 bottom-0 w-px"
-              style={{ background: "linear-gradient(to bottom, #00ff88, rgba(0,255,136,0.1))" }}
+              style={{ background: "linear-gradient(to bottom, #93c5fd, rgba(147,197,253,0.1))" }}
             />
 
             <div className="flex flex-col gap-0">
@@ -102,14 +102,14 @@ export function Qualifications() {
                   <div
                     className="absolute left-2.5 top-2 w-3 h-3 -translate-x-1/2 transition-all duration-200"
                     style={{
-                      background: item.current ? "#00ff88" : "#040407",
-                      border: `2px solid ${item.current ? "#00ff88" : "rgba(0,255,136,0.4)"}`,
-                      boxShadow: item.current ? "0 0 12px rgba(0,255,136,0.6)" : "none",
+                      background: item.current ? "#93c5fd" : "#040407",
+                      border: `2px solid ${item.current ? "#93c5fd" : "rgba(147,197,253,0.4)"}`,
+                      boxShadow: item.current ? "0 0 12px rgba(147,197,253,0.6)" : "none",
                     }}
                   />
 
                   <div
-                    className="p-5 transition-all duration-200 group-hover:border-[rgba(0,255,136,0.2)]"
+                    className="p-5 transition-all duration-200 group-hover:border-[rgba(147,197,253,0.2)]"
                     style={{
                       border: "1px solid rgba(255,255,255,0.07)",
                       background: "#06060a",
@@ -132,10 +132,10 @@ export function Qualifications() {
                             fontFamily: "'DM Mono', monospace",
                             fontSize: "0.62rem",
                             letterSpacing: "0.1em",
-                            color: "#00ff88",
-                            border: "1px solid rgba(0,255,136,0.3)",
+                            color: "#93c5fd",
+                            border: "1px solid rgba(147,197,253,0.3)",
                             padding: "2px 8px",
-                            background: "rgba(0,255,136,0.07)",
+                            background: "rgba(147,197,253,0.07)",
                           }}
                         >
                           ATUAL
@@ -157,7 +157,7 @@ export function Qualifications() {
                         style={{
                           fontFamily: "'DM Mono', monospace",
                           fontSize: "0.7rem",
-                          color: "#00ff88",
+                          color: "#93c5fd",
                           letterSpacing: "0.06em",
                         }}
                       >

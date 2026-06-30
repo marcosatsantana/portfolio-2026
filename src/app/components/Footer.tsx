@@ -25,13 +25,13 @@ export function Footer() {
             <div className="flex items-center gap-3 mb-3">
               <div
                 className="w-9 h-9 flex items-center justify-center"
-                style={{ border: "1px solid #00ff88" }}
+                style={{ border: "1px solid #93c5fd" }}
               >
                 <span
                   style={{
                     fontFamily: "'Anton', sans-serif",
                     fontSize: "0.85rem",
-                    color: "#00ff88",
+                    color: "#93c5fd",
                     letterSpacing: "0.02em",
                   }}
                 >
@@ -53,7 +53,7 @@ export function Footer() {
                   style={{
                     fontFamily: "'DM Mono', monospace",
                     fontSize: "0.58rem",
-                    color: "#00ff88",
+                    color: "#93c5fd",
                     letterSpacing: "0.1em",
                   }}
                 >
@@ -113,8 +113,8 @@ export function Footer() {
                   color: "#6b6b80",
                 }}
                 onMouseEnter={(e) => {
-                  (e.currentTarget as HTMLAnchorElement).style.borderColor = "#00ff88";
-                  (e.currentTarget as HTMLAnchorElement).style.color = "#00ff88";
+                  (e.currentTarget as HTMLAnchorElement).style.borderColor = "#93c5fd";
+                  (e.currentTarget as HTMLAnchorElement).style.color = "#93c5fd";
                 }}
                 onMouseLeave={(e) => {
                   (e.currentTarget as HTMLAnchorElement).style.borderColor = "rgba(255,255,255,0.1)";

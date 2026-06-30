@@ -31,7 +31,7 @@ function CursorGlow() {
         width: 400,
         height: 400,
         borderRadius: "50%",
-        background: "radial-gradient(circle, rgba(0,255,136,0.04) 0%, transparent 70%)",
+        background: "radial-gradient(circle, rgba(147,197,253,0.04) 0%, transparent 70%)",
         transform: "translate(0,0)",
       }}
     />
@@ -70,7 +70,7 @@ export default function App() {
         .mk-cursor-dot {
           width: 6px;
           height: 6px;
-          background: #00ff88;
+          background: #93c5fd;
           border-radius: 50%;
           transform: translate(-50%, -50%);
           transition: transform 0.1s ease;
@@ -79,7 +79,7 @@ export default function App() {
         .mk-cursor-ring {
           width: 28px;
           height: 28px;
-          border: 1px solid rgba(0,255,136,0.5);
+          border: 1px solid rgba(147,197,253,0.5);
           border-radius: 50%;
           transform: translate(-50%, -50%);
           transition: all 0.15s ease;
@@ -88,7 +88,7 @@ export default function App() {
         body:has(button:hover) .mk-cursor-ring,
         body:has(a:hover) .mk-cursor-ring {
           transform: translate(-50%, -50%) scale(1.5);
-          background: rgba(0,255,136,0.05);
+          background: rgba(147,197,253,0.05);
         }
 
         /* Grain overlay */
@@ -106,11 +106,11 @@ export default function App() {
         /* Scrollbar */
         ::-webkit-scrollbar { width: 3px; }
         ::-webkit-scrollbar-track { background: #040407; }
-        ::-webkit-scrollbar-thumb { background: #00ff88; }
+        ::-webkit-scrollbar-thumb { background: #93c5fd; }
 
         /* Text selection */
         ::selection {
-          background: rgba(0,255,136,0.25);
+          background: rgba(147,197,253,0.25);
           color: #f0f0f8;
         }
 
@@ -120,7 +120,7 @@ export default function App() {
         /* Hide scrollbar while not scrolling */
         * {
           scrollbar-width: thin;
-          scrollbar-color: #00ff88 #040407;
+          scrollbar-color: #93c5fd #040407;
         }
 
         /* Glitch animation */

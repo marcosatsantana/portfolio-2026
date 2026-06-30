@@ -14,7 +14,7 @@ const contactMethods = [
     label: "WHATSAPP",
     value: "+55 (62) 9 8590-5272",
     href: "https://wa.me/5562985905272",
-    accent: "#00ff88",
+    accent: "#93c5fd",
   },
   {
     icon: Facebook,
@@ -57,7 +57,7 @@ export function Contact() {
               style={{
                 fontFamily: "'DM Mono', monospace",
                 fontSize: "0.72rem",
-                color: "#ff0055",
+                color: "#bfdbfe",
                 letterSpacing: "0.2em",
                 marginBottom: "1rem",
               }}
@@ -74,7 +74,7 @@ export function Contact() {
               }}
             >
               VAMOS<br />
-              <span style={{ color: "transparent", WebkitTextStroke: "1.5px #ff0055" }}>
+              <span style={{ color: "transparent", WebkitTextStroke: "1.5px #bfdbfe" }}>
                 CONVERSAR.
               </span>
             </h2>
@@ -155,7 +155,7 @@ export function Contact() {
             {/* CTA box */}
             <div
               className="mt-4 p-6 relative overflow-hidden"
-              style={{ background: "#00ff88" }}
+              style={{ background: "#93c5fd" }}
             >
               <div
                 className="absolute top-0 right-0 w-24 h-24 opacity-10"
@@ -243,7 +243,7 @@ export function Contact() {
                     border: "1px solid rgba(255,255,255,0.1)",
                     color: "#f0f0f8",
                   }}
-                  onFocus={(e) => (e.currentTarget.style.borderColor = "rgba(0,255,136,0.5)")}
+                  onFocus={(e) => (e.currentTarget.style.borderColor = "rgba(147,197,253,0.5)")}
                   onBlur={(e) => (e.currentTarget.style.borderColor = "rgba(255,255,255,0.1)")}
                 />
               </div>
@@ -276,7 +276,7 @@ export function Contact() {
                   border: "1px solid rgba(255,255,255,0.1)",
                   color: "#f0f0f8",
                 }}
-                onFocus={(e) => (e.currentTarget.style.borderColor = "rgba(0,255,136,0.5)")}
+                onFocus={(e) => (e.currentTarget.style.borderColor = "rgba(147,197,253,0.5)")}
                 onBlur={(e) => (e.currentTarget.style.borderColor = "rgba(255,255,255,0.1)")}
               />
             </div>
@@ -285,14 +285,14 @@ export function Contact() {
               type="submit"
               className="relative overflow-hidden flex items-center justify-center gap-2 py-4 transition-all duration-300"
               style={{
-                background: sent ? "#00ff88" : "transparent",
-                border: `1px solid ${sent ? "#00ff88" : "rgba(0,255,136,0.5)"}`,
+                background: sent ? "#93c5fd" : "transparent",
+                border: `1px solid ${sent ? "#93c5fd" : "rgba(147,197,253,0.5)"}`,
               }}
             >
               {!sent && (
                 <div
                   className="absolute inset-0 -translate-x-full hover:translate-x-0 transition-transform duration-300"
-                  style={{ background: "rgba(0,255,136,0.08)" }}
+                  style={{ background: "rgba(147,197,253,0.08)" }}
                 />
               )}
               <span
@@ -301,7 +301,7 @@ export function Contact() {
                   fontFamily: "'DM Mono', monospace",
                   fontSize: "0.72rem",
                   letterSpacing: "0.15em",
-                  color: sent ? "#040407" : "#00ff88",
+                  color: sent ? "#040407" : "#93c5fd",
                 }}
               >
                 {sent ? <><Check size={14} /> MENSAGEM_ENVIADA</> : <><Send size={14} /> ENVIAR_MENSAGEM</>}

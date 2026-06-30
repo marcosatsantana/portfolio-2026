@@ -5,7 +5,7 @@ const steps = [
     subtitle: "ENTENDER O PROBLEMA",
     description:
       "Mergulho fundo no seu negócio, objetivos e dores antes de escrever uma linha de código. Perguntas difíceis, respostas honestas.",
-    accent: "#00ff88",
+    accent: "#93c5fd",
   },
   {
     num: "02",
@@ -13,7 +13,7 @@ const steps = [
     subtitle: "PLANEJAR A SOLUÇÃO",
     description:
       "Definição da stack, modelagem de dados, wireframes e arquitetura do sistema. Menos retrabalho, mais velocidade de entrega.",
-    accent: "#ff0055",
+    accent: "#bfdbfe",
   },
   {
     num: "03",
@@ -29,7 +29,7 @@ const steps = [
     subtitle: "LANÇAR E EVOLUIR",
     description:
       "Deploy, testes, ajustes finais e suporte pós-lançamento. O projeto não termina na entrega — evolui com você.",
-    accent: "#00ff88",
+    accent: "#93c5fd",
   },
 ];
 
@@ -46,7 +46,7 @@ export function Process() {
               style={{
                 fontFamily: "'DM Mono', monospace",
                 fontSize: "0.72rem",
-                color: "#ff0055",
+                color: "#bfdbfe",
                 letterSpacing: "0.2em",
                 marginBottom: "1rem",
               }}
@@ -63,7 +63,7 @@ export function Process() {
               }}
             >
               COMO EU<br />
-              <span style={{ color: "transparent", WebkitTextStroke: "1.5px #00ff88" }}>
+              <span style={{ color: "transparent", WebkitTextStroke: "1.5px #93c5fd" }}>
                 TRABALHO.
               </span>
             </h2>
@@ -175,20 +175,18 @@ export function Process() {
               key={i}
               className="flex-1 flex items-center justify-center"
             >
-              {i < steps.length - 1 ? (
+              <div
+                className="w-full h-px relative overflow-hidden"
+                style={{ background: "rgba(255,255,255,0.1)" }}
+              >
                 <div
-                  className="w-full h-px relative overflow-hidden"
-                  style={{ background: "rgba(255,255,255,0.1)" }}
-                >
-                  <div
-                    className="absolute left-0 top-0 h-full w-12"
-                    style={{
-                      background: `linear-gradient(90deg, ${step.accent}, transparent)`,
-                      animation: "scanRight 3s linear infinite",
-                    }}
-                  />
-                </div>
-              ) : null}
+                  className="absolute left-0 top-0 h-full w-12"
+                  style={{
+                    background: `linear-gradient(90deg, ${step.accent}, transparent)`,
+                    animation: "scanRight 3s linear infinite",
+                  }}
+                />
+              </div>
             </div>
           ))}
         </div>

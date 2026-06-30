@@ -25,9 +25,9 @@ const backendSkills: Skill[] = [
 ];
 
 const levelMeta: Record<string, { color: string; bar: string }> = {
-  BÁSICO: { color: "#ff0055", bar: "#ff005540" },
+  BÁSICO: { color: "#bfdbfe", bar: "#bfdbfe40" },
   MÉDIO: { color: "#00d4ff", bar: "#00d4ff30" },
-  AVANÇADO: { color: "#00ff88", bar: "#00ff8830" },
+  AVANÇADO: { color: "#93c5fd", bar: "#93c5fd30" },
 };
 
 export function Skills() {
@@ -56,7 +56,7 @@ export function Skills() {
               style={{
                 fontFamily: "'DM Mono', monospace",
                 fontSize: "0.72rem",
-                color: "#ff0055",
+                color: "#bfdbfe",
                 letterSpacing: "0.2em",
                 marginBottom: "1rem",
               }}
@@ -74,7 +74,7 @@ export function Skills() {
               }}
             >
               MINHAS<br />
-              <span style={{ color: "transparent", WebkitTextStroke: "1.5px #ff0055" }}>
+              <span style={{ color: "transparent", WebkitTextStroke: "1.5px #bfdbfe" }}>
                 SKILLS.
               </span>
             </h2>
@@ -102,8 +102,8 @@ export function Skills() {
                   onClick={() => setTab(key as "frontend" | "backend")}
                   className="relative overflow-hidden flex items-center gap-4 px-5 py-3.5 text-left transition-all duration-200 group"
                   style={{
-                    border: `1px solid ${tab === key ? "#00ff88" : "rgba(255,255,255,0.07)"}`,
-                    background: tab === key ? "rgba(0,255,136,0.06)" : "transparent",
+                    border: `1px solid ${tab === key ? "#93c5fd" : "rgba(255,255,255,0.07)"}`,
+                    background: tab === key ? "rgba(147,197,253,0.06)" : "transparent",
                   }}
                 >
                   <span
@@ -111,7 +111,7 @@ export function Skills() {
                       fontFamily: "'DM Mono', monospace",
                       fontSize: "0.72rem",
                       letterSpacing: "0.15em",
-                      color: tab === key ? "#00ff88" : "#6b6b80",
+                      color: tab === key ? "#93c5fd" : "#6b6b80",
                     }}
                   >
                     {label}_DEV
@@ -122,7 +122,7 @@ export function Skills() {
                       style={{
                         fontFamily: "'DM Mono', monospace",
                         fontSize: "0.62rem",
-                        color: "#00ff88",
+                        color: "#93c5fd",
                       }}
                     >
                       ATIVO →

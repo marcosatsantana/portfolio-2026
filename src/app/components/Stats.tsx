@@ -9,10 +9,10 @@ interface StatItem {
 }
 
 const stats: StatItem[] = [
-  { value: 8, suffix: "", label: "ANOS", sublabel: "EXPERIÊNCIA TOTAL", accent: "#00ff88" },
-  { value: 48, suffix: "+", label: "PROJETOS", sublabel: "ENTREGUES COM SUCESSO", accent: "#ff0055" },
+  { value: 8, suffix: "", label: "ANOS", sublabel: "EXPERIÊNCIA TOTAL", accent: "#93c5fd" },
+  { value: 48, suffix: "+", label: "PROJETOS", sublabel: "ENTREGUES COM SUCESSO", accent: "#bfdbfe" },
   { value: 5, suffix: "", label: "EMPRESAS", sublabel: "ATUAÇÃO PROFISSIONAL", accent: "#00d4ff" },
-  { value: 100, suffix: "%", label: "DEDICAÇÃO", sublabel: "EM CADA ENTREGA", accent: "#00ff88" },
+  { value: 100, suffix: "%", label: "DEDICAÇÃO", sublabel: "EM CADA ENTREGA", accent: "#93c5fd" },
 ];
 
 function Counter({ value, suffix, accent }: { value: number; suffix: string; accent: string }) {
@@ -57,7 +57,7 @@ function Counter({ value, suffix, accent }: { value: number; suffix: string; acc
 export function Stats() {
   return (
     <section
-      style={{ background: "#040407", borderTop: "1px solid rgba(0,255,136,0.08)" }}
+      style={{ background: "#040407", borderTop: "1px solid rgba(147,197,253,0.08)" }}
     >
       <div className="max-w-7xl mx-auto px-6 py-20">
         <div
